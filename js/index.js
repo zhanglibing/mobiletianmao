@@ -30,7 +30,7 @@ $(function(){
     //main
     var sw2=new Swiper('#main',{
         direction:'horizontal',
-        width : 176
+        width : '176px'
     });
     var w=null;
     $('#main').on('touchstart',function(e){
@@ -87,4 +87,9 @@ $(function(){
             $('.nav-tab').removeClass('active')
         }
     });
+    $('.tab-nav ul').on('click','li',function(){
+        $('.tab-nav ul li').removeClass('active')
+        $(this).addClass('active')
+    })
+
 })

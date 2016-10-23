@@ -53,6 +53,12 @@ body {
   }
 }
 
+@media screen and (max-width: 600px) {
+  html {
+    font-size: 144.92754px;
+  }
+}
+
 @media screen and (max-width: 435px) {
   html {
     font-size: 105.07246px;
@@ -65,9 +71,21 @@ body {
   }
 }
 
+@media screen and (max-width: 412px) {
+  html {
+    font-size: 99.51691px;
+  }
+}
+
 @media screen and (max-width: 411px) {
   html {
     font-size: 99.27536px;
+  }
+}
+
+@media screen and (max-width: 385px) {
+  html {
+    font-size: 92.99517px;
   }
 }
 

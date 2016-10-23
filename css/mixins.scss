@@ -37,7 +37,7 @@
 }
 //手机移动端
 @mixin device-size($size){
-  $device-size-list:$size,435px,414px,411px,375px,360px,320px;
+  $device-size-list:$size,600px,435px,414px,412px,411px,385px,375px,360px,320px;
   @each $i in $device-size-list{
     @media screen and(max-width:#{$i}) {
       html{
